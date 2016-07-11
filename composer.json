@@ -1,0 +1,12 @@
+{
+  "name": "karticbedi/wpenv",
+  "require": {
+    "vlucas/phpdotenv": "^2.2"
+  },
+  "authors": [
+    {
+      "name": "Kartic Bedi",
+      "email": "me@karticbedi.com"
+    }
+  ]
+}
