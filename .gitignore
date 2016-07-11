@@ -1,0 +1,27 @@
+# Ignore some root files.
+.env
+
+#Ignore everything in the wp-content directory, except the folders/files you specify.
+public/wp-content/*
+!public/wp-content/index.php
+!public/wp-content/plugins
+!public/wp-content/themes
+public/wp-content/uploads/*
+!public/wp-content/uploads/index.php
+
+public/wp-content/advanced-cache.php
+public/wp-content/backup-db
+public/wp-content/backups
+public/wp-content/cache
+public/wp-content/upgrade
+public/wp-content/wp-cache-config.php
+
+# Ignore everything in the "plugins" directory, except the plugins you specify.
+public/wp-content/plugins/*
+!public/wp-content/plugins/index.php
+#!public/wp-content/plugins/my-plugin
+
+# Ignore everything in the "themes" directory, except the themes you specify.
+public/wp-content/themes/*
+!public/wp-content/plugins/index.php
+#!public/wp-content/themes/mytheme
