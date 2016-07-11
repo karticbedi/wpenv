@@ -23,5 +23,5 @@ public/wp-content/plugins/*
 
 # Ignore everything in the "themes" directory, except the themes you specify.
 public/wp-content/themes/*
-!public/wp-content/plugins/index.php
+!public/wp-content/themes/index.php
 #!public/wp-content/themes/mytheme
